@@ -1,0 +1,35 @@
+.RightPanel{
+    margin: 0px 20px;
+}
+.ViewTransactionContainer{
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.HeaderContainer{
+    background-color: grey;
+    text-align: center;
+    padding: 8px 0px;
+}
+.HeaderContainer > h2{
+    font-size: 20px;
+    margin: unset;
+}
+.FieldsContainer{
+    display: flex;
+    padding: 20px 15px;
+}
+.FrequencyContainer, .MonthsContainer, .CategoriesContainer{
+    padding-right: 25px;
+}
+.FrequencyContainer > label, .MonthsContainer > label, .CategoriesContainer > label{
+    margin: unset;
+    padding-right: 15px;
+}
+.SpendInfoContainer{display: flex;}
+.ExpenditureContainer{
+    border: 1px solid black;
+}
+.SpendAnalysisContainer{
+    border: 1px solid black;
+    margin: 0px 20px;
+}

@@ -1,0 +1,25 @@
+<div class="ExpenditureComponent">
+    <div class="HeaderContainer">
+        <h2>Expenditure</h2>
+    </div>
+    <div class="TrasactionContainer">
+        <div class="TableContainer">
+            <table id="customers">
+                <tr>
+                    <th>TxnId</th>
+                    <th>Desc</th>
+                    <th>Category</th>
+                    <th>Amount</th>
+                    <th>D/C</th>
+                </tr>
+                <tr *ngFor="let currTransaction of Transactions">
+                    <td>{{currTransaction.txnId}}</td>
+                    <td>{{currTransaction.desc}}</td>
+                    <td>{{currTransaction.category}}</td>
+                    <td>{{currTransaction.amount}}</td>
+                    <td>{{currTransaction.debitCreditInfo}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

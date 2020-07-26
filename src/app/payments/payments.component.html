@@ -1,0 +1,51 @@
+<div class="PaymentContainer">
+    <div class="PaymentHeaderText">
+        <h2>Make/Receive Payment</h2>
+    </div>
+    <form class="Form" #f="ngForm" (ngSubmit)="submit(f)">
+        <div class="form-group">
+            <div class="FieldContainer">
+                <label class="LabelText" for="amount">Amount</label>
+                <input class="InputField" required ngModel name="amount" type="number" #amount="ngModel">
+                <div class="alert alert-danger" *ngIf="amount.touched && !amount.valid">
+                    <div *ngIf="amount.errors.required">Amount can't be empty!</div>
+                </div>
+            </div>
+            <div class="FieldContainer">
+                <label class="LabelText" for="date">Date</label>
+                <input class="InputField" required ngModel name="date" #date="ngModel" type="date">
+                <div class="alert alert-danger" *ngIf="date.touched && !date.valid">
+                    <div *ngIf="date.errors.required">Please select the date!</div>
+                </div>
+            </div>
+            <div class="FieldContainer">
+                <label class="LabelText" for="payment_type">Payment Type</label>
+                <select required ngModel name="payment_type" #payment_type="ngModel" (change)="handlePaymentType(payment_type.value, f)">
+                    <option *ngFor="let currPaymentType of paymentTypes" [value]="currPaymentType">{{currPaymentType}}</option>
+                </select>
+                <!-- <input class="InputField" required ngModel name="payment_type" #payment_type="ngModel" type="text"> -->
+                <div class="alert alert-danger" *ngIf="payment_type.touched && !payment_type.valid">
+                    <div *ngIf="payment_type.errors.required">Please specify payment type!</div>
+                </div>
+            </div>
+            <div class="FieldContainer">
+                <label class="LabelText" for="category">Category</label>
+                <select required ngModel name="category" id="category" #category="ngModel">
+                    <option *ngFor="let currCategory of categories" [value]="currCategory">{{currCategory}}</option>
+                </select>
+                <!-- <input class="InputField" required ngModel name="category" #category="ngModel" type="text"> -->
+                <div class="alert alert-danger" *ngIf="category.touched && !category.valid">
+                    <div *ngIf="category.errors.required">Please select the category!</div>
+                </div>
+            </div>
+            <div class="FieldContainer">
+                <label class="LabelText" for="description">Description</label>
+                <input class="InputField" required ngModel name="description" #description="ngModel" type="text">
+                <div class="alert alert-danger" *ngIf="description.touched && !description.valid">
+                    <div *ngIf="description.errors.required">Please specify payment type!</div>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary SubmitButton" [disabled]="!f.valid">Submit</button>
+    </form>
+</div>

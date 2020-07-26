@@ -1,0 +1,320 @@
+{
+  "user": [
+    { "id": 123, "availableBalance": 3000, "transactionGroupId":986 }
+  ],
+  "0": [
+    { 
+      "id": 986,
+       "data": [
+      {
+        "txnId": "Tx20",
+        "desc": "Family",
+        "category": "Misc",
+        "amount": 800,
+        "debitCreditInfo": "D"
+      },
+      {
+        "txnId": "Tx19",
+        "desc": "Family",
+        "category": "Medical",
+        "amount": 200,
+        "debitCreditInfo": "D"
+      },
+      {
+        "txnId": "Tx18",
+        "desc": "Family",
+        "category": "Medical",
+        "amount": 100,
+        "debitCreditInfo": "D"
+      },
+      {
+        "txnId": "Tx17",
+        "desc": "Family",
+        "category": "Misc",
+        "amount": 500,
+        "debitCreditInfo": "D"
+      },
+      {
+        "txnId": "Tx16",
+        "desc": "Family",
+        "category": "Loans",
+        "amount": 300,
+        "debitCreditInfo": "D"
+      },
+      {
+        "txnId": "Tx15",
+        "desc": "Family",
+        "category": "Utility Bills",
+        "amount": 600,
+        "debitCreditInfo": "D"
+      },
+      {
+        "txnId": "Tx14",
+        "desc": "Family",
+        "category": "Education",
+        "amount": 500,
+        "debitCreditInfo": "D"
+      },
+      {
+        "txnId": "Tx13",
+        "desc": "Family",
+        "category": "Shopping",
+        "amount": 300,
+        "debitCreditInfo": "D"
+      }
+    ]
+   },
+   {
+     "id":456,
+     "data":[
+      {
+        "txnId": "Tx50",
+        "desc": "Family",
+        "category": "Shopping",
+        "amount": 300,
+        "debitCreditInfo": "D"
+      }
+     ]
+   }
+  ],
+  "1":[
+    {
+      "id":986,
+      "data":[
+        {
+          "txnId": "Tx12",
+          "desc": "Family",
+          "category": "Misc",
+          "amount": 800,
+          "debitCreditInfo": "D"
+        },
+        {
+          "txnId": "Tx11",
+          "desc": "Family",
+          "category": "Medical",
+          "amount": 200,
+          "debitCreditInfo": "D"
+        }
+      ]
+    },
+    {
+      "id":456,
+      "data":[
+        {
+          "txnId": "Tx51",
+          "desc": "Family",
+          "category": "Misc",
+          "amount": 800,
+          "debitCreditInfo": "D"
+        },
+        {
+          "txnId": "Tx52",
+          "desc": "Family",
+          "category": "Medical",
+          "amount": 200,
+          "debitCreditInfo": "D"
+        }
+      ]
+    }
+  ],
+  "2":[
+    {
+      "id":986,
+      "data":[
+        {
+          "txnId": "Tx10",
+          "desc": "Family",
+          "category": "Misc",
+          "amount": 800,
+          "debitCreditInfo": "D"
+        },
+        {
+          "txnId": "Tx09",
+          "desc": "Family",
+          "category": "Medical",
+          "amount": 200,
+          "debitCreditInfo": "D"
+        }
+      ]
+    },
+    {
+      "id":456,
+      "data":[
+        {
+          "txnId": "Tx51",
+          "desc": "Family",
+          "category": "Misc",
+          "amount": 800,
+          "debitCreditInfo": "D"
+        },
+        {
+          "txnId": "Tx52",
+          "desc": "Family",
+          "category": "Medical",
+          "amount": 200,
+          "debitCreditInfo": "D"
+        }
+      ]
+    }
+  ],
+  "3":[
+    {
+      "id":986,
+      "data":[
+        {
+          "txnId": "Tx08",
+          "desc": "Family",
+          "category": "Misc",
+          "amount": 800,
+          "debitCreditInfo": "D"
+        },
+        {
+          "txnId": "Tx07",
+          "desc": "Family",
+          "category": "Medical",
+          "amount": 200,
+          "debitCreditInfo": "D"
+        }
+      ]
+    },
+    {
+      "id":456,
+      "data":[
+        {
+          "txnId": "Tx51",
+          "desc": "Family",
+          "category": "Misc",
+          "amount": 800,
+          "debitCreditInfo": "D"
+        },
+        {
+          "txnId": "Tx52",
+          "desc": "Family",
+          "category": "Medical",
+          "amount": 200,
+          "debitCreditInfo": "D"
+        }
+      ]
+    }
+  ],
+  "4":[
+    {
+      "id":986,
+      "data":[
+        {
+          "txnId": "Tx06",
+          "desc": "Family",
+          "category": "Misc",
+          "amount": 800,
+          "debitCreditInfo": "D"
+        },
+        {
+          "txnId": "Tx05",
+          "desc": "Family",
+          "category": "Medical",
+          "amount": 200,
+          "debitCreditInfo": "D"
+        }
+      ]
+    },
+    {
+      "id":456,
+      "data":[
+        {
+          "txnId": "Tx51",
+          "desc": "Family",
+          "category": "Misc",
+          "amount": 800,
+          "debitCreditInfo": "D"
+        },
+        {
+          "txnId": "Tx52",
+          "desc": "Family",
+          "category": "Medical",
+          "amount": 200,
+          "debitCreditInfo": "D"
+        }
+      ]
+    }
+  ],
+  "5":[
+    {
+      "id":986,
+      "data":[
+        {
+          "txnId": "Tx04",
+          "desc": "Family",
+          "category": "Misc",
+          "amount": 800,
+          "debitCreditInfo": "D"
+        },
+        {
+          "txnId": "Tx03",
+          "desc": "Family",
+          "category": "Medical",
+          "amount": 200,
+          "debitCreditInfo": "D"
+        }
+      ]
+    },
+    {
+      "id":456,
+      "data":[
+        {
+          "txnId": "Tx51",
+          "desc": "Family",
+          "category": "Misc",
+          "amount": 800,
+          "debitCreditInfo": "D"
+        },
+        {
+          "txnId": "Tx52",
+          "desc": "Family",
+          "category": "Medical",
+          "amount": 200,
+          "debitCreditInfo": "D"
+        }
+      ]
+    }
+  ],
+  "6":[
+    {
+      "id":986,
+      "data":[
+        {
+          "txnId": "Tx01",
+          "desc": "Family",
+          "category": "Misc",
+          "amount": 800,
+          "debitCreditInfo": "D"
+        },
+        {
+          "txnId": "Tx02",
+          "desc": "Family",
+          "category": "Medical",
+          "amount": 200,
+          "debitCreditInfo": "D"
+        }
+      ]
+    },
+    {
+      "id":456,
+      "data":[
+        {
+          "txnId": "Tx51",
+          "desc": "Family",
+          "category": "Misc",
+          "amount": 800,
+          "debitCreditInfo": "D"
+        },
+        {
+          "txnId": "Tx52",
+          "desc": "Family",
+          "category": "Medical",
+          "amount": 200,
+          "debitCreditInfo": "D"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+.Root{
+    padding: 30px 20px;
+    height: 100vh;
+}
+.Header, .Footer{
+    width: 100%;
+    height: 20px;
+    background-color: grey;
+}
+.CompsContainer{
+    padding-top: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}

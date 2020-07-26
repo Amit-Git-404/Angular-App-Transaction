@@ -1,0 +1,31 @@
+.PaymentContainer{
+    border: 1px solid black;
+}
+.PaymentHeaderText{
+    background-color: grey;
+    text-align: center;
+    padding: 8px 0px;
+}
+.PaymentHeaderText > h2{
+    font-size: 20px;
+    margin: unset;
+}
+.Form{
+    padding: 1rem 0;
+}
+.FieldContainer{
+    padding: 10px 12px;
+}
+.LabelText{
+    font-size: 15px;
+    font-weight: 400;
+    width: 120px;
+    padding: 0px 5px;
+}
+.InputField{
+    padding: 5px;
+}
+.SubmitButton{
+    display: flex;
+    margin: 0px auto;
+}

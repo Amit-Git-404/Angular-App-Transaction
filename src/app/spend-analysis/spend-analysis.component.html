@@ -1,0 +1,15 @@
+<div class="SpendContainer">
+    <div class="HeaderContainer">
+        <h2>View Transactions</h2>
+    </div>
+    <div class="chart-wrapper">
+        <canvas baseChart 
+        [data]="pieChartData" 
+        [labels]="pieChartLabels" 
+        [chartType]="pieChartType"
+        [options]="pieChartOptions"
+        [plugins]="pieChartPlugins"
+        [legend]="pieChartLegend">
+      </canvas>
+    </div>
+</div>

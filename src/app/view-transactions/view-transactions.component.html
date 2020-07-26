@@ -1,0 +1,37 @@
+<div class="RightPanel">
+    <div class="ViewTransactionContainer">
+        <div class="HeaderContainer">
+            <h2>View Transactions</h2>
+        </div>
+        <div class="FieldsContainer">
+            <div class="FrequencyContainer">
+                <label for="frequency">Frequency</label>
+                <select name="frequency" id="frequencySection" #frequency (change)="handleDropDown('Frequency', frequency.value)">
+                    <option *ngFor="let currFrequency of Frequencies" [value]="currFrequency">{{currFrequency}}</option>
+                </select>
+            </div>
+            <div class="MonthsContainer">
+                <label for="lastSixMonths">Month</label>
+                <select name="lastSixMonths" [disabled]="isMonthDisabled" id="lastSixMonthsID" #selectedMonth (change)="handleDropDown('Months', selectedMonth.value)">
+                    <option *ngFor="let currMonth of LastSixMonthsArray" [value]="currMonth">{{currMonth}}</option>
+                </select>
+            </div>
+            <div class="CategoriesContainer">
+                <label for="categories">Category</label>
+                <select name="categories" id="categories" #categories (change)="handleDropDown('Category', categories.value)">
+                    <option *ngFor="let currCategory of Categories" [value]="currCategory">{{currCategory}}</option>
+                </select>
+            </div>
+            <div class="DurationContainer"></div>
+            <div class="CategoryContainer"></div>
+        </div>
+    </div>
+    <div class="SpendInfoContainer">
+        <div class="ExpenditureContainer">
+            <expenditure [Transactions]="TransactionsToConsider"></expenditure>
+        </div>
+        <div *ngIf="TransactionsToConsider.length > 0" class="SpendAnalysisContainer">
+            <spend-analysis [pieChartLabels]="chartLabels" [pieChartData]="chartData" [pieChartType]="'pie'" [pieChartLegend]="true"></spend-analysis>
+        </div>
+    </div>
+</div>
