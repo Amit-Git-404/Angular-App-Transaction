@@ -43,7 +43,7 @@ export class AppComponent {
     let debitCreditInfo: string = paymentData.paymentType == "Make Payment" ? "D" : "C";
     let transactionToUpdate: TransactionModel = { txnId: "Tx_156", amount: paymentData.amount, category: paymentData.category, desc: paymentData.description, debitCreditInfo };
     let userInfo = { "availableBalance": 3000 };
-    this.http.patch(this.url, { "transactions": transactionToUpdate }).subscribe((data) => response = Object.assign({}));
+    //this.http.patch(this.url, { "transactions": transactionToUpdate }).subscribe((data) => response = Object.assign({}));
   }
 
   getTransactions(transactionsToGet: TransactionsToGet) {
